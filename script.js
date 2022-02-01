@@ -27,7 +27,11 @@ function calcular(){
       }
        
       result.innerHTML = `<p>Seu IMC é <strong>${valorIMC}</strong>.</p> <p>${classif}</p>`;
-  
-   
-      
   }
+
+function limpar(){
+  if(document.getElementById('txtaltura').value!=""){
+    document.getElementById('txtaltura').value="";
+    document.getElementById('txtpeso').value="";
+  }
+}
