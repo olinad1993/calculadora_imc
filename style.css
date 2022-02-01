@@ -50,4 +50,13 @@ input[type=text] {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    cursor: pointer;
   }
+
+#input-limpar{
+  color: white;
+  border: none;
+  padding: 3px 3px;
+  background-color: #4ab3e4;
+  cursor: pointer;
+}
